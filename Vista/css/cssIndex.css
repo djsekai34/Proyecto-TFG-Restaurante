@@ -1,0 +1,86 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fdf6e3;
+    padding: 50px;
+}
+
+h1 {
+    color: #586e75;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+form {
+    background-color: #eee8d5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #586e75;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #93a1a1;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: #fdf6e3;
+    background-color: #cb4b16;
+}
+
+button[name="registrar"] {
+    background-color: #dc322f;
+}
+
+.mensaje-error {
+    background-color: #dc322f;
+    color: #fdf6e3;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: larger;
+}
+
+.botonGoogle {
+    background: url('../iconos/google.png') no-repeat;
+    background-size: 20px 20px;
+    background-position: 10px center;
+    padding-left: 50px;
+    background-color: #6c71c4;
+    color: white;
+    border: none;
+}
+select#mesa {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #93a1a1;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    color: #586e75;
+    background-color: #fdf6e3;
+}
+
+#iconodelRestaurante{
+    position: absolute;
+    width: 93px;
+    height: 93px;
+    margin-left: 655px;
+    margin-top: -62px;
+}
+

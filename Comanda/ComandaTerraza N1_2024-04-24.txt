@@ -1,0 +1,27 @@
+{
+    "David": {
+        "Producto": [
+            "Agua",
+            "Nestea"
+        ],
+        "Cantidad": [
+            12,
+            17
+        ],
+        "Precio": [
+            "3€",
+            "3€"
+        ]
+    },
+    "pablo": {
+        "Producto": [
+            "Nestea"
+        ],
+        "Cantidad": [
+            "15"
+        ],
+        "Precio": [
+            "3€"
+        ]
+    }
+}

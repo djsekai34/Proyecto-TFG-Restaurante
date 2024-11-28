@@ -1,0 +1,100 @@
+/*Comporbacion de que no es 0 la cantidad actual*/
+/*Lo pasamos a decimal la cadena de texto*/
+
+Incluir Alergenos en la comida /*HACERLO*/
+Incluir la capacidad de las mesas /*HACERLO*/
+Incluir alimentos /*HACERLO*/
+Tabla Reservas: Mesa Fecha Hora Capacidad (Echarle un ojo)
+Para la comanda: mesas productos y camarero
+
+/*Mirarlo*/
+un camarero puede tener varias mesas
+en el momento de anotar una comanda, selecciono el camarero que soy la mesa y el producto
+
+    /*Obtenemos la canridad total de ese producto*/
+    $consulta = $conexion->prepare("SELECT cantidad FROM productos WHERE nombre = :producto");
+    $consulta->bindParam(':producto', $producto);
+    $consulta->execute();
+
+    $resultado = $consulta->fetch(PDO::FETCH_ASSOC);
+    $cantidadActual = $resultado['cantidad'];
+
+    /*Hacemos la resta*/
+    $nuevaCantidadBD = $cantidadActual - $nuevaCantidad;
+
+    /*Actualizamos*/
+    $consulta = $conexion->prepare("UPDATE productos SET cantidad = :nuevaCantidad WHERE nombre = :producto");
+    $consulta->bindParam(':producto', $producto);
+    $consulta->bindParam(':nuevaCantidad', $nuevaCantidadBD);
+    $consulta->execute();
+
+
+/*Cosillas a hacer estas semanas*/
+1ª Tocar que se limpie el formulario del editar (cuando cierre) /**HECHO**/
+2º Tildes
+3º Añadir confirmacion/**HECHO**/
+4º Foto = si viene solo, coga el nombre si no viene solo pues coga la foto, a parte mirar el js ya que no coge la foto :) 2/2
+5º Tocar las imagenes que ocupe toda la pagina /**HECHO**/
+6º Corregir js /**HECHO**/
+7º Corregir css de los div del los productos: bebida (hecho), entrantes(hecho), Carne (hecho), Pescado (hecho), Infantil (hecho), Postres (hecho), TXT para apuntar (hecho)
+
+10 17 24 30
+font-family: 'Trebuchet MS', sans-serif;
+style="display:none;"
+6º Corregir Css y mejorarlo
+©
+
+/*Entrantes*/
+Plato de habas con jamón y huevos = Huevo /**HECHO**/
+Jamón = No /**HECHO**/
+Jamón y queso = Huevo /**HECHO**/
+Croquetas de Jamon = Cereales con Gluten, Huevo /**HECHO**/
+Salchichon = lactosa, soja y sulfitos  /**HECHO**/
+Patatas Bravas = No  /**HECHO**/
+Calamares fritos = Cereales con Gluten, Moluscos /**HECHO**/
+Tabla de quesos = Frutos secos, lacteos /**HECHO**/
+
+/*Pescado*/
+Lubina = Pescado /**HECHO**/
+Bacalado al pil pil = Pescado /**HECHO**/
+Besugo al horno = Pescado /**HECHO**/
+Caldero de merluza y patatas al estilo murciano: Pescado Frutos secos /**HECHO**/
+Albóndigas de rape con salsa de cava: pescado, crustaceos, huevos, gluten  /**HECHO**/
+Salmón relleno de crema de espinacas con salsa holandesa: pescado, huevos, leche, gluten, mostaza /**HECHO**/
+Atún a la plancha con pesto de aguacate y verduras: pescado, frutos secos /**HECHO**/
+Bacalao a la riojana, con salsa de pimientos: pescado, gluten /**HECHO**/
+
+/*Carne*/
+Solomillo de cerdo al ajillo con patatas: Gluten /**HECHO**/
+Cordero al chilindron: Gluten /**HECHO**/
+Escalopines de ternera con arroz: Gluten /**HECHO**/
+Codillo al horno con patatas: Gluten /**HECHO**/
+Brochetas de ternera: Gluten /**HECHO**/
+Carrillada en salsa con patatas: Gluten/**HECHO**/
+Pinchos de pollo: gluten /**HECHO**/
+Estofado de ternera: Gluten/**HECHO**/
+
+/*Infantil*/
+Patatas fritas con huevos fritos y croquetas: huevos, gluten. leche /**HECHO**/
+Hamburguesa con patatas fritas: huevos, gluten. leche /**HECHO**/
+Pollo rebozado con patatas fritas: Huevos, Gluten /**HECHO**/
+Nuggets de pollo: huevos, gluten. leche /**HECHO**/
+Nuggets de pescado: huevos, gluten. leche, pescado, mostaza /**HECHO**/
+Spaguettis a la boloñesa: huevos, gluten. leche /**HECHO**/
+Flamenquin con patatas: huevos, gluten /**HECHO**/
+San Jacobos con patatas: huevos, gluten, leche /**HECHO**/
+
+
+/*Postres*/
+Tarta de Whisky: huevos, gluten, leche /**HECHO**/
+Cafe: Gluten /**HECHO**/
+Tarta de queso: Huevos, gluten, leche /**HECHO**/
+Mouse de chocolate: Huevos, gluten, leche /**HECHO**/
+Tiramisu: Huevos, gluten, leche /**HECHO**/
+
+
+
+
+
+Gluten/, Crustaceos, Moluscos, Pescado/, Huevos/, Altramuces, Mostaza, Cacahuetes, Frutos secos, Soja/, Semamo, Apio, leche/, Anhidrido Sulfuroso
+ 

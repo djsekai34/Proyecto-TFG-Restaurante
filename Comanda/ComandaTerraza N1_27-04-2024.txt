@@ -1,0 +1,52 @@
+{
+    "David": {
+        "Producto": [
+            "Lubina al hornocon patatas",
+            "Lubina al horno con patatas",
+            "Bacalao al pil pil",
+            "Besugo al horno",
+            "Caldero de merluzay patatas al estilomurciano",
+            "Caldero de merluza y patatas al estilo murciano",
+            "Albóndigas de rapecon salsa de cava",
+            "Albóndigas de rape con salsa de cava",
+            "Salmón relleno decrema de espinacascon salsa holandesa",
+            "Salmón relleno de crema de espinacas con salsa holandesa",
+            "Atún a la planchacon pesto de aguacatey verduras",
+            "Atún a la plancha con pesto de aguacate y verduras",
+            "Bacalao a la riojana,con salsa depimientos",
+            "Bacalao a la riojana, con salsa de pimientos"
+        ],
+        "Cantidad": [
+            "1",
+            4,
+            "1",
+            "1",
+            2,
+            "1",
+            2,
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "Precio": [
+            "15€",
+            "15€",
+            "10€",
+            "20€",
+            "20€",
+            "20€",
+            "9€",
+            "9€",
+            "10€",
+            "10€",
+            "12€",
+            "12€",
+            "12€",
+            "12€"
+        ]
+    }
+}

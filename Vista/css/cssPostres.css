@@ -1,0 +1,149 @@
+#divTartaQueso, #divCafe, #divTiramisu, #divTartaWisky{
+    background-color: #C4C3C4;
+    color: white;
+    width: 1520px;
+    height: 600px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+
+#divMouse{
+    background-color: #C4C3C4;
+    color: white;
+    width: 1520px;
+    height: 575px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+
+#imagenGeneralPostreTiramisu, #imagenGeneralPostreTartaQueso{
+    margin-left: 530px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+ #imagenGeneralPostreMouse{
+    margin-left: 530px;
+    height: 230px;
+    margin-top: 10px;
+}
+
+#imagenGeneralPostreCafe, #imagenGeneralPostreTartaWisky{
+    margin-left: 580px;
+    height: 350px;
+    margin-top: -55px;
+}
+
+#textoGeneralI1, #textoGeneralI2{
+    font-size: 40px;
+    margin-left: 280px;
+    color: black;
+}
+
+#textoGeneralPO1, #textoGeneralPO3, #textoGeneralPO4, #textoGeneralPO5{
+    font-size: 40px;
+    margin-left: 445px;
+    color: black;
+}
+
+#textoGeneralPO2{
+    font-size: 40px;
+    margin-left: 535px;
+    color: black;
+}
+
+#precioPO, #precioPO2, #precioPO3, #precioPO4, #precioPO5{
+    position: absolute;
+    color: black;
+    font-size: 45px;
+    margin-top: -92px;
+    margin-left: 950px;
+}
+#botonsumarPO1, #botonsumarPO2, #botonsumarPO3, #botonsumarPO4, #botonsumarPO5{
+    background-color: transparent;
+    margin-left: 550px;
+    border: none;
+}
+
+#botonsumarPO1 img, #botonsumarPO2 img, #botonsumarPO3 img, #botonsumarPO4 img, #botonsumarPO5 img{
+    width: 50px;
+    height: auto;
+}
+
+#cantidadPO1, #cantidadPO2, #cantidadPO3, #cantidadPO4, #cantidadPO5{
+    font-size: 45px;
+    margin-left: 740px;
+    margin-top: -55px;
+    color: black;
+}
+
+
+#botonrestarPO1,#botonrestarPO2, #botonrestarPO3, #botonrestarPO4, #botonrestarPO5{
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 0px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+#botonrestarPO1 img, #botonrestarPO2 img, #botonrestarPO3 img, #botonrestarPO4 img, #botonrestarPO5 img{
+    width: 50px;
+    height: auto;
+}
+
+#botonsalirPO1, #botonsalirPO2, #botonsalirI2, #botonsalirPO3, #botonsalirPO4, #botonsalirPO5{
+    background-color: white;
+    margin-left: 1420px;
+    margin-top: -570px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+#botonsalirPO1 img, #botonsalirPO2 img,  #botonsalirPO3 img, #botonsalirPO4 img, #botonsalirPO5 img{
+    width: 50px;
+    height: auto;
+    margin-top: 100px;
+}
+
+
+
+#addcarritoPO, #addcarritoPO2, #addcarritoPO3, #addcarritoPO4,#addcarritoPO5{
+    margin-left: 700px;
+    margin-top: -10px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*Alergenos */
+#AlergenosMouse{
+    position: absolute;
+    margin-top: -555px;
+    /*border: 1px solid black;*/
+    margin-left: 8px;
+}
+
+
+#AlergenosTartaWisky,#AlergenosCafe,#AlergenosTartaQueso, #AlergenosTiramisu{
+    position: absolute;
+    margin-top: -530px;
+    /*border: 1px solid black;*/
+    margin-left: 8px;
+}
+
+#imagenHuevo, #imagenLactosa,#imagenSoja,#imagenDixidoSulfurico,#imagenGluten,#imagenMoluscos,#imagenCascara,#imagenPescado,#imagenCrustaceo, #imagenMostaza{
+    height: 190px;
+}
+
+#TextoTartaWiskyAlergenos, #TextoCafeAlergenos,#TextoTartaQuesoAlergenos,#TextoMouseAlergenos,#TextoTiramisuAlergenos{
+    color: red;
+    text-align: center;
+}

@@ -1,0 +1,89 @@
+#divAgua, #divAguaGas, #divCocaCola, #divNestea, #divAquarius, #divFantaNaranja, #divCocaColaZero, #divFantaLimon, #divCerveza, #divVino{
+    background-color: #C4C3C4;
+    color: white;
+    width: 1520px;
+    height: 565px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+#imagenGeneral,#imagenGeneral3, #imagenGeneral4, #imagenGeneral5, #imagenGeneral6, #imagenGeneral7, #imagenGeneral9{
+    margin-left: 665px;
+    height: 250px;
+}
+#imagenGeneral2{
+    margin-left: 620px;
+    height: 275px;
+}
+#imagenGeneralCerveza{
+    margin-left: 560px;
+    height: 250px;
+}
+#textoGeneral, #textoGeneral2, #textoGeneralR1, #textoGeneralR2, #textoGeneralR3, #textoGeneralR4, #textoGeneralR5, #textoGeneralR6, #textoGeneralA1, #textoGeneralA2{
+    font-size: 45px;
+    margin-left: 500px;
+    color: black;
+}
+#precio,#precio2,#precio3,#precio4,#precio5,#precio6,#precio7,#precio8, #precio9, #precio10{
+    position: absolute;
+    color: black;
+    font-size: 45px;
+    margin-top: -95px;
+    margin-left: 900px;
+}
+#botonsumar, #botonsumar2, #botonsumarR1, #botonsumarR2, #botonsumarR3, #botonsumarR4, #botonsumarR5, #botonsumarR6, #botonsumarA1, #botonsumarA2{
+    background-color: transparent;
+    margin-left: 550px;
+    border: none;
+}
+
+#botonsumar img, #botonsumar2 img, #botonsumarR1 img, #botonsumarR2 img, #botonsumarR3 img, #botonsumarR4 img, #botonsumarR5 img, #botonsumarR6 img, #botonsumarA1 img, #botonsumarA2 img {
+    width: 50px;
+    height: auto;
+}
+#cantidad, #cantidad2, #cantidadR1, #cantidadR2, #cantidadR3, #cantidadR4, #cantidadR5, #cantidadR6, #cantidadA1, #cantidadA2{
+    font-size: 45px;
+    margin-left: 740px;
+    margin-top: -55px;
+    color: black;
+}
+
+
+#botonrestar,#botonrestar2, #botonrestarR1, #botonrestarR2, #botonrestarR3, #botonrestarR4, #botonrestarR5, #botonrestarR6, #botonrestarA1, #botonrestarA2 {
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 0px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+#botonrestar img, #botonrestar2 img, #botonrestarR1 img, #botonrestarR2 img, #botonrestarR3 img, #botonrestarR4 img, #botonrestarR5 img, #botonrestarR6 img, #botonrestarA1 img, #botonrestarA2 img  {
+    width: 50px;
+    height: auto;
+}
+
+#botonsalir, #botonsalir2, #botonsalirR1, #botonsalirR2, #botonsalirR3, #botonsalirR4, #botonsalirR5, #botonsalirR6, #botonsalirA1, #botonsalirA2 {
+    background-color: white;
+    margin-left: 1420px;
+    margin-top: -480px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+#botonsalir img, #botonsalir2 img, #botonsalirR1 img, #botonsalirR2 img, #botonsalirR3 img, #botonsalirR4 img, #botonsalirR5 img, #botonsalirR6 img, #botonsalirA1 img, #botonsalirA2 img    {
+    width: 50px;
+    height: auto;
+}
+
+#addcarrito, #addcarrito2, #addcarrito3, #addcarrito4,#addcarrito5,#addcarrito6, #addcarrito7, #addcarrito8, #addcarrito9, #addcarrito10 {
+    margin-left: 700px;
+    margin-top: -10px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

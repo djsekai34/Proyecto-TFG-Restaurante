@@ -1,0 +1,179 @@
+body {
+    background-color: #fdf6e3;
+    font-family: 'Georgia', serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border: 2px solid #000;
+}
+
+table thead tr {
+    background-color: #FF6347;
+    color: #ffffff;
+    text-align: center;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+table th {
+    border-bottom: 2px solid #000;
+}
+
+table tbody tr:nth-of-type(odd) td {
+    background-color: #FF6347;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #ADD8E6;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*Css del texto h1*/
+#ResumenComida{
+    margin-left: 565px;
+    margin-top: 55px;
+    margin-bottom: 40px;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*Css paara decir el camarero atendido y boton volver*/
+#CamareroAtendido{
+    margin-left: 1190px;
+    margin-top: -115px;
+    margin-bottom: 100px;
+}
+
+#BotonVolver {
+    background-color: white;
+    margin-left: 0px;
+    margin-top: -135px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+#BotonVolver img{
+    width: 50px;
+    height: auto;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*CSS total cuenta*/
+#TotalCuenta{
+   margin-top: 100px;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*Css para los botones*/
+#contenedorPagar {
+    text-align: center;
+    margin-top: 8px;
+}
+
+#CobrarTarjeta, #CobrarFisico {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    background-color: #FF6347;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#CobrarFisico {
+    background-color: #ADD8E6;
+}
+
+#TextoForma {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*Css para el boton de pagar en fisico */
+#divFisico, #divTarjeta, #divYaCobrado{
+    border: 1px solid black;
+    text-align: center;
+    background-color: #C4C3C4;
+}
+
+#TicketSI, #TicketNo {
+    display: inline-block;
+    width: 240px;
+    height: 50px;
+    margin: 20px;
+    background-color: #FF4500;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#TicketNo {
+    background-color: #87CEFA;
+}
+#TextoPrecioTotal{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*Css para el boton de pagar con tarjeta */
+#FormTarjeta input {
+    width: 25%;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+    height: 33px;
+}
+
+#FormTarjeta label {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#Pagar {
+    display: inline-block;
+    width: 240px;
+    height: 50px;
+    margin: 20px;
+    background-color: #32CD32;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+#TicketSITarjeta, #TicketNoTarjeta {
+    display: inline-block;
+    width: 240px;
+    height: 50px;
+    margin: 20px;
+    background-color: #FF4500;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#TicketNoTarjeta {
+    background-color: #87CEFA;
+}

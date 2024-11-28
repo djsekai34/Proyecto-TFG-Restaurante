@@ -1,0 +1,20 @@
+body {
+    background-color: #fdf6e3;
+    font-family: 'Georgia', serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom: 2px dashed #000;
+}
+
+th {
+    text-align: left;
+    border-bottom: 1px dashed #000;
+}
+
+
+.total {
+    text-align: right;
+}

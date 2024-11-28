@@ -1,0 +1,273 @@
+body{
+    background-color: #fdf6e3;
+    font-family: 'Georgia', serif;
+}
+#divInsertarProducto, #divEliminarProducto, #divVerCamareros, #divEliminarCamareros,#divVerProductos, #divEditarProducto {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C4C3C4;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 25px;
+}
+
+.textoProducto {
+    font-size: 2em;
+    text-align: center;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*div para insertar producto*/
+#divParaInsertar {
+    width: 100%;
+    height: 590px;
+    background-color: #D3F8E2;
+    border-radius: 0 0 15px 15px;
+    margin-top: -8px;
+    margin-bottom: 15px;
+}
+#txtFile{
+    margin-left: 8px;
+}
+
+#checkboxes {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+form {
+    font-family: 'Georgia', serif;
+}
+
+#NombreProductolabel {
+    color: #00008B;
+    display: block;
+    margin-bottom: 5px;
+    padding-top: 8px;
+    margin-left: 8px;
+}
+
+label {
+    color: #00008B;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 8px;
+}
+
+input[type="text"], select {
+    width: 98%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #93a1a1;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif;
+    color: #00008B;
+    background-color: #fdf6e3;
+    margin-left: 8px;
+}
+
+#botonInsertarProducto {
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    color: #fdf6e3;
+    background-color: #cb4b16;
+    margin-left: 8px;
+    margin-top: 12px;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*Div para borrar producto*/
+#divParaBorrarProducto {
+    width: 100%;
+    height: 155px;
+    background-color: #FFC1C1;
+    border-radius: 0 0 15px 15px;
+    margin-top: -8px;
+    margin-bottom: 15px;
+}
+
+#ProductoDisponibleid {
+    color: #00008B;
+    display: block;
+    margin-bottom: 5px;
+    padding-top: 8px;
+    margin-left: 8px;
+}
+
+#botonBorrarProducto {
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    color: #fdf6e3;
+    background-color: #cb4b16;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*Ver productos*/
+#divParaVerLosProductos {
+    width: 100%;
+    background-color: #C1D4FF;
+    border-radius: 0 0 15px 15px;
+    margin-top: -8px;
+    margin-bottom: 15px;
+}
+
+#ProductosCategoria {
+    color: #00008B;
+    display: block;
+    margin-bottom: 5px;
+    padding-top: 8px;
+    margin-left: 8px;
+}
+
+#todosProductos {
+    width: 80%;
+    max-height: 480px;
+    overflow-y: auto;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+#todosProductos th, #todosProductos td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+#todosProductos th {
+    background-color: #f2f2f2;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*Ver productos*/
+#VerTodosCamareros {
+    width: 100%;
+    background-color: #C1D4FF;
+    border-radius: 0 0 15px 15px;
+    margin-top: -8px;
+    margin-bottom: 15px;
+}
+
+#VerTodosCamarerosTabla {
+    width: 80%;
+    max-height: 480px;
+    overflow-y: auto;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+#VerTodosCamarerosTabla th, #VerTodosCamarerosTabla td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+#VerTodosCamarerosTabla th {
+    background-color: #f2f2f2;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*Para eliminar camarero*/
+#divParaCamarero {
+    width: 100%;
+    height: 155px;
+    background-color: #FFC1C1;
+    border-radius: 0 0 15px 15px;
+    margin-top: -8px;
+    margin-bottom: 15px;
+}
+
+#CamareroEliminarID{
+    color: #00008B;
+    display: block;
+    margin-bottom: 5px;
+    padding-top: 8px;
+    margin-left: 8px;
+}
+
+#botonBorrarCamarero{
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    color: #fdf6e3;
+    background-color: #cb4b16;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*Editar*/
+#divParaCambiarProducto {
+    width: 100%;
+    height: 745px;
+    background-color: #FFC1E3;
+    border-radius: 0 0 15px 15px;
+    margin-top: -8px;
+    margin-bottom: 15px;
+}
+#ProductoDisponibleEditarid{
+    color: #00008B;
+    display: block;
+    margin-bottom: 5px;
+    padding-top: 8px;
+    margin-left: 8px;
+}
+#botonEditarProducto{
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    color: #fdf6e3;
+    background-color: #cb4b16;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+#CategoriaDisponibleEditarTexto{
+    font-weight: bold;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*Cerrar Sesion*/
+#DivCerrarSesion{
+    background-color: black;
+    width: 101%;
+    height: 55px;
+    margin-top: -9px;
+    margin-left: -8px;
+    margin-bottom: 8px;
+}
+
+#cerrarSesion{
+    margin-left: 700px;
+    margin-top: 5px;
+    font-size: 18px;
+    padding: 8px 16px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#TextoHeader{
+    color: white;
+    font-size: 25px;
+    margin-top: 13px;
+    margin-left: 5px;
+    position: absolute;
+}
+
+#imagenHeader{
+    position: absolute;
+    margin-left: 630px;
+    width: 55px;
+    margin-top: 0px;
+}

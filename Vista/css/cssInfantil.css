@@ -1,0 +1,189 @@
+#divPHC{
+    background-color: #C4C3C4;
+    color: white;
+    width: 1520px;
+    height: 610px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+#divHamburguesa, #divPollo, #divNuggetsPollo,  #divFlamenquin,#divNuggetsPescado, #divSpaguettis, #divSanJacobo{
+    background-color: #C4C3C4;
+    color: white;
+    width: 1520px;
+    height: 570px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+#imagenGeneralInfantilFlamenquin{
+    margin-left: 550px;
+    height: 240px;
+    margin-top: 15px;
+}
+
+#imagenGeneralInfatilPHC, #imagenGeneralInfantilHamburguesa, #imagenGeneralInfantilPollo, #imagenGeneralInfantilNuggetsPescado{
+    margin-left: 570px;
+    height: 190px;
+    margin-top: 15px;
+}
+ #imagenGeneralInfantilNuggets,#imagenGeneralInfantilSpaguettis{
+    margin-left: 620px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+#imagenGeneralInfantilSanJacobo{
+    margin-left: 630px;
+    height: 240px;
+    margin-top: 15px;
+}
+
+#textoGeneralI1, #textoGeneralI2{
+    font-size: 40px;
+    margin-left: 280px;
+    color: black;
+}
+
+#textoGeneralI3, #textoGeneralI4, #textoGeneralI5, #textoGeneralI6, #textoGeneralI7, #textoGeneralI8{
+    font-size: 40px;
+    margin-left: 445px;
+    color: black;
+}
+
+#precioI, #precioI2, #precioI3, #precioI4, #precioI5, #precioI6, #precioI7, #precioI8{
+    position: absolute;
+    color: black;
+    font-size: 45px;
+    margin-top: -92px;
+    margin-left: 950px;
+}
+#botonsumarI1, #botonsumarI2, #botonsumarI3, #botonsumarI4, #botonsumarI5, #botonsumarI6, #botonsumarI7, #botonsumarI8{
+    background-color: transparent;
+    margin-left: 550px;
+    border: none;
+}
+
+#botonsumarI1 img, #botonsumarI2 img, #botonsumarI3 img, #botonsumarI4 img, #botonsumarI5 img, #botonsumarI6 img, #botonsumarI7 img, #botonsumarI8 img{
+    width: 50px;
+    height: auto;
+}
+
+#cantidadI1, #cantidadI2, #cantidadI3, #cantidadI4, #cantidadI5, #cantidadI6, #cantidadI7, #cantidadI8{
+    font-size: 45px;
+    margin-left: 740px;
+    margin-top: -55px;
+    color: black;
+}
+
+
+#botonrestarI1,#botonrestarI2, #botonrestarI3, #botonrestarI4, #botonrestarI5, #botonrestarI6, #botonrestarI7, #botonrestarI8{
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 0px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+#botonrestarI1 img, #botonrestarI2 img, #botonrestarI3 img, #botonrestarI4 img, #botonrestarI5 img, #botonrestarI6 img, #botonrestarI7 img, #botonrestarI8 img{
+    width: 50px;
+    height: auto;
+}
+
+#botonsalirI2{
+    background-color: white;
+    margin-left: 1420px;
+    margin-top: -670px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+#botonsalirI1 img, #botonsalirI8 img, #botonsalirI2 img, #botonsalirI3 img, #botonsalirI4 img, #botonsalirI5 img, #botonsalirI6 img, #botonsalirI7 img{
+    width: 50px;
+    height: auto;
+    margin-top: 100px;
+}
+
+#botonsalirI1, #botonsalirI8,#botonsalirI7{
+    background-color: white;
+    margin-left: 1420px;
+    margin-top: -613px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+#botonsalirI3, #botonsalirI6{
+    background-color: white;
+    margin-left: 1420px;
+    margin-top: -570px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+#botonsalirI4{
+    background-color: white;
+    margin-left: 1420px;
+    margin-top: -530px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+#botonsalirI5{
+    background-color: white;
+    margin-left: 1420px;
+    margin-top: -520px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+#addcarritoI, #addcarritoI2, #addcarritoI3, #addcarritoI4,#addcarritoI5,#addcarritoI6, #addcarritoI7, #addcarritoI8{
+    margin-left: 700px;
+    margin-top: -10px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*Alergenos */
+#AlergenosPHC,#AlergenosFlamenquin,  #AlergenosSanJacobos{
+    position: absolute;
+    margin-top: -570px;
+    /*border: 1px solid black;*/
+    margin-left: 8px;
+}
+
+#AlergenosHamburguesa, #AlergenosSpaguetti, #AlergenosPollo{
+    position: absolute;
+    margin-top: -520px;
+    /*border: 1px solid black;*/
+    margin-left: 8px;
+}
+
+#AlergenosNuggetsPollo, #AlergenosNuggetsPescado{
+    position: absolute;
+    margin-top: -480px;
+    /*border: 1px solid black;*/
+    margin-left: 8px;
+}
+
+#imagenHuevo, #imagenLactosa,#imagenSoja,#imagenDixidoSulfurico,#imagenGluten,#imagenMoluscos,#imagenCascara,#imagenPescado,#imagenCrustaceo, #imagenMostaza{
+    height: 190px;
+}
+
+#imagenHuevo2, #imagenLactosa2,#imagenSoja2,#imagenDixidoSulfurico2,#imagenGluten2,#imagenMoluscos2,#imagenCascara2,#imagenPescado2,#imagenCrustaceo2, #imagenMostaza2{
+    height: 140px;
+}
+#TextoPHCAlergenos, #TextoHamburguesaAlergenos,#TextoPolloAlergenos,#TextoNuggetsPolloAlergenos,#TextoNuggetsPescadoAlergenos,#TextoSpaguettiAlergenos, #TextoFlamenquinAlergenos,#TextoSanJacobosAlergenos{
+    color: red;
+    text-align: center;
+}

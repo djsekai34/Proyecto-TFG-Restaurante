@@ -1,0 +1,268 @@
+#divBacalado, #divBesugo{
+    background-color: #C4C3C4;
+    color: white;
+    width: 1520px;
+    height: 563px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+#divMurciano, #divSalmoRelleno, #divAtunPlancha, #divBacaladoRioja, #divLubina{
+    background-color: #C4C3C4;
+    color: white;
+    width: 1520px;
+    height: 590px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+#divAlbondigaRape{
+    background-color: #C4C3C4;
+    color: white;
+    width: 1520px;
+    height: 585px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+
+#imagenGeneralEntrantesSalmon{
+    margin-left: 525px;
+    height: 350px;
+    margin-top: 15px;
+}
+
+#imagenGeneralPescadoSalmon{
+    margin-left: 570px;
+    height: 240px;
+    margin-top: 15px;
+}
+
+#imagenGeneralPescadoMerluzaMurciano, #imagenGeneralPescadoAlbondigaPescado{
+    margin-left: 635px;
+    height: 238px;
+    margin-top: 15px;
+}
+
+#imagenGeneralPescadoAtun, #imagenGeneralPescadoBacaladoRioja{
+    margin-left: 585px;
+    height: 250px;
+    margin-top: 15px;
+}
+
+
+#imagenGeneralPescadoLubina, #imagenGeneralPescadoBacalado, #imagenGeneralPescadoBesugo{
+    margin-left: 570px;
+    height: 220px;
+    margin-top: 15px;
+}
+
+#textoGeneralP1, #textoGeneralP5¡{
+    font-size: 40px;
+    margin-left: 280px;
+    color: black;
+}
+#textoGeneralP8{
+    font-size: 33px;
+    margin-left: 280px;
+    color: black;
+}
+#textoGeneralP7{
+    font-size: 33px;
+    margin-left: 280px;
+    color: black;
+}
+#textoGeneralP6{
+    font-size: 35px;
+    margin-left: 280px;
+    color: black;
+}
+
+#textoGeneralP4 {
+    font-size: 32px;
+    margin-left: 280px;
+    color: black;
+}
+
+#textoGeneralP2, #textoGeneralP3{
+    font-size: 40px;
+    margin-left: 445px;
+    color: black;
+}
+
+#precioP{
+    position: absolute;
+    color: black;
+    font-size: 45px;
+    margin-top: -92px;
+    margin-left: 1000px;
+}
+
+#precioP2, #precioP3, #precioP4, #precioP5, #precioP6, #precioP7, #precioP8{
+    position: absolute;
+    color: black;
+    font-size: 45px;
+    margin-top: -92px;
+    margin-left: 950px;
+}
+#botonsumarP1, #botonsumarP2, #botonsumarP3, #botonsumarP4, #botonsumarP5, #botonsumarP6, #botonsumarP7, #botonsumarP8{
+    background-color: transparent;
+    margin-left: 550px;
+    border: none;
+}
+
+#botonsumarP1 img, #botonsumarP2 img, #botonsumarP3 img, #botonsumarP4 img, #botonsumarP5 img, #botonsumarP6 img, #botonsumarP7 img, #botonsumarP8 img{
+    width: 50px;
+    height: auto;
+}
+#cantidadP1, #cantidadP2, #cantidadP3, #cantidadP4, #cantidadP5, #cantidadP6, #cantidadP7, #cantidadP8{
+    font-size: 45px;
+    margin-left: 740px;
+    margin-top: -55px;
+    color: black;
+}
+
+
+#botonrestarP1,#botonrestarP2, #botonrestarP3, #botonrestarP4, #botonrestarP5, #botonrestarP6, #botonrestarP7, #botonrestarP8{
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 0px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+#botonrestarP1 img, #botonrestarP2 img, #botonrestarP3 img, #botonrestarP4 img, #botonrestarP5 img, #botonrestarP6 img, #botonrestarP7 img, #botonrestarP8 img{
+    width: 50px;
+    height: auto;
+}
+
+#botonsalirP1, #botonsalirP2, #botonsalirP3, #botonsalirP8{
+    background-color: white;
+    margin-left: 1420px;
+    margin-top: -555px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+#botonsalirP1 img, #botonsalirP2 img, #botonsalirP3 img, #botonsalirP8 img{
+    width: 50px;
+    height: auto;
+    margin-top: 100px;
+}
+
+#botonsalirP4{
+    background-color: white;
+    margin-left: 1420px;
+    margin-top: -555px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+#botonsalirP7{
+    background-color: white;
+    margin-left: 1420px;
+    margin-top: -625px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+#botonsalirP4 img,#botonsalirP7 img{
+    width: 50px;
+    height: auto;
+    margin-top: 100px;
+}
+
+
+#botonsalirP5,#botonsalirP6{
+    background-color: white;
+    margin-left: 1420px;
+    margin-top: -615px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+#botonsalirP5 img, #botonsalirP6 img {
+    width: 50px;
+    height: auto;
+    margin-top: 100px;
+}
+
+#addcarritoP, #addcarritoP2, #addcarritoP3, #addcarritoP4,#addcarritoP5,#addcarritoP6, #addcarritoP7, #addcarritoP8{
+    margin-left: 700px;
+    margin-top: -10px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*Alergenos */
+#AlergenosLubina{
+    position: absolute;
+    margin-top: -550px;
+    /*border: 1px solid black;*/
+    margin-left: 8px;
+}
+
+#AlergenosMurciano,#AlergenosBacaladoRioja{
+    position: absolute;
+    margin-top: -550px;
+    /*border: 1px solid black;*/
+    margin-left: 8px;
+}
+#AlergenosBacaladoRioja{
+    position: absolute;
+    margin-top: -590px;
+    /*border: 1px solid black;*/
+    margin-left: 8px;
+}
+
+ #AlergenosAtunPlancha{
+    position: absolute;
+    margin-top: -580px;
+    /*border: 1px solid black;*/
+    margin-left: 8px;
+}
+
+ #AlergenosSalmon{
+    position: absolute;
+    margin-top: -590px;
+    /*border: 1px solid black;*/
+    margin-left: 8px;
+}
+
+#AlergenosAlbonRape{
+    position: absolute;
+    margin-top: -575px;
+    /*border: 1px solid black;*/
+    margin-left: 8px;
+}
+
+
+#AlergenosBacalado, #AlergenosBesugo{
+    position: absolute;
+    margin-top: -500px;
+    /*border: 1px solid black;*/
+    margin-left: 8px;
+}
+
+#imagenHuevo, #imagenLactosa,#imagenSoja,#imagenDixidoSulfurico,#imagenGluten,#imagenMoluscos,#imagenCascara,#imagenPescado,#imagenCrustaceo, #imagenMostaza{
+    height: 190px;
+}
+
+#imagenPescado2,#imagenCrustaceo2, #imagenHuevo2, #imagenGluten2, #imagenLactosa2, #imagenMostaza2{
+    height: 145px;
+}
+
+#TextoLubinasAlergenos, #TextoBesugoAlergenos,#TextoBacaladoAlergenos,#TextoMurcianoAlergenos,#TextoAlbonRapeAlergenos,#TextoAtunPlanchaAlergenos, #TextoBacaladoRiojaAlergenos{
+    color: red;
+    text-align: center;
+}

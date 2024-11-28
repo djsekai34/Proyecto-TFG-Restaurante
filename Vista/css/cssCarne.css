@@ -1,0 +1,149 @@
+
+#divEscalopines, #divCodillo,  #divSolomillo{
+    background-color: #C4C3C4;
+    color: white;
+    width: 1520px;
+    height: 585px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+#divCordero, #divBrochetas,#divPinchos,  #divEstofado, #divCarrillada{
+    background-color: #C4C3C4;
+    color: white;
+    width: 1520px;
+    height: 565px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+#imagenGeneralCarneCarrillada, #imagenGeneralCarnePinchos{
+    margin-left: 570px;
+    height: 240px;
+    margin-top: 15px;
+}
+
+#imagenGeneralCarneSolomillo, #imagenGeneralCarneCordero, #imagenGeneralCarneEscalopines, #imagenGeneralCarneCodillo, #imagenGeneralCarneBrochetas, #imagenGeneralCarneEstofado{
+    margin-left: 570px;
+    height: 240px;
+    margin-top: 15px;
+}
+
+#textoGeneralC1, #textoGeneralC2, #textoGeneralC5, #textoGeneralC6, #textoGeneralC7,#textoGeneralC8{
+    font-size: 40px;
+    margin-left: 280px;
+    color: black;
+}
+
+#textoGeneralC3, #textoGeneralC4{
+    font-size: 40px;
+    margin-left: 445px;
+    color: black;
+}
+
+#precioC, #precioC2, #precioC3, #precioC4, #precioC5, #precioC6, #precioC7, #precioC8{
+    position: absolute;
+    color: black;
+    font-size: 45px;
+    margin-top: -92px;
+    margin-left: 950px;
+}
+#botonsumarC1, #botonsumarC2, #botonsumarC3, #botonsumarC4, #botonsumarC5, #botonsumarC6, #botonsumarC7, #botonsumarC8{
+    background-color: transparent;
+    margin-left: 550px;
+    border: none;
+}
+
+#botonsumarC1 img, #botonsumarC2 img, #botonsumarC3 img, #botonsumarC4 img, #botonsumarC5 img, #botonsumarC6 img, #botonsumarC7 img, #botonsumarC8 img{
+    width: 50px;
+    height: auto;
+}
+
+#cantidadC1, #cantidadC2, #cantidadC3, #cantidadC4, #cantidadC5, #cantidadC6, #cantidadC7, #cantidadC8{
+    font-size: 45px;
+    margin-left: 740px;
+    margin-top: -55px;
+    color: black;
+}
+
+
+#botonrestarC1,#botonrestarC2, #botonrestarC3, #botonrestarC4, #botonrestarC5, #botonrestarC6, #botonrestarC7, #botonrestarC8{
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 0px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+#botonrestarC1 img, #botonrestarC2 img, #botonrestarC3 img, #botonrestarC4 img, #botonrestarC5 img, #botonrestarC6 img, #botonrestarC7 img, #botonrestarC8 img{
+    width: 50px;
+    height: auto;
+}
+
+#botonsalirC1, #botonsalirC3, #botonsalirC4,  #botonsalirC6{
+    background-color: white;
+    margin-left: 1420px;
+    margin-top: -618px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+#botonsalirC2, #botonsalirC5,  #botonsalirC8, #botonsalirC7{
+    background-color: white;
+    margin-left: 1420px;
+    margin-top: -570px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+#botonsalirC1 img, #botonsalirC2 img, #botonsalirC3 img, #botonsalirC4 img, #botonsalirC5 img, #botonsalirC7 img, #botonsalirC8 img{
+    width: 50px;
+    height: auto;
+    margin-top: 100px;
+}
+
+#botonsalirC6 img {
+    width: 50px;
+    height: auto;
+    margin-top: 100px;
+}
+
+#addcarritoC, #addcarritoC2, #addcarritoC3, #addcarritoC4,#addcarritoC5,#addcarritoC6, #addcarritoC7, #addcarritoC8{
+    margin-left: 700px;
+    margin-top: -10px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*Alergenos */
+
+#AlergenosSolomillo, #AlergenosEscalopines, #AlergenosCordillo, #AlergenosCarrillada{
+    position: absolute;
+    margin-top: -569px;
+    /*border: 1px solid black;*/
+    margin-left: 8px;
+}
+
+#AlergenosCordero ,#AlergenosBrotechas, #AlergenosPinchos,  #AlergenosEstofado {
+    position: absolute;
+    margin-top: -520px;
+    /*border: 1px solid black;*/
+    margin-left: 8px;
+}
+
+#imagenHuevo, #imagenLactosa,#imagenSoja,#imagenDixidoSulfurico,#imagenGluten,#imagenMoluscos,#imagenCascara,#imagenPescado,#imagenCrustaceo, #imagenMostaza{
+    height: 190px;
+}
+
+#TextoSolimilloAlergenos, #TextoCorderoAlergenos,#TextoEscalopinesAlergenos,#TextoCordilloAlergenos,#TextoBrotechasAlergenos,#TextoCarrilladaAlergenos, #TextoPinchosAlergenos,#TextoEstofadoAlergenos{
+    color: red;
+    text-align: center;
+}

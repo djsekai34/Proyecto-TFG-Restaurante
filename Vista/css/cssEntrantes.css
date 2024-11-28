@@ -1,0 +1,180 @@
+#divJamon, #divCroquetas, #divSalchichonIberico, #divBravas, #divCalamaresFritos, #divQuesos   {
+    background-color: #C4C3C4;
+    color: white;
+    width: 1520px;
+    height: 570px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+#divHabas, #divJamonyQueso{
+    background-color: #C4C3C4;
+    color: white;
+    width: 1520px;
+    height: 600px;
+    margin-top: 20px;
+    position: absolute;
+}
+#imagenGeneralEntrantes, #imagenGeneralEntrantesCr{
+    margin-left: 585px;
+    height: 240px;
+    margin-top: 15px;
+}
+
+#imagenGeneralEntrantesSI{
+    margin-left: 675px;
+    height: 245px;
+    margin-top: 15px;
+}
+
+
+#imagenGeneralEntrantesJQ, #imagenGeneralEntrantesB, #imagenGeneralEntrantesCF{
+    margin-left: 600px;
+    height: 240px;
+    margin-top: 15px;
+}
+
+#imagenGeneralEntrantesJ, #imagenGeneralEntrantesTQ{
+    margin-left: 655px;
+    height: 250px;
+    margin-top: 15px;
+}
+#textoGeneralE1{
+    font-size: 40px;
+    margin-left: 300px;
+    color: black;
+}
+
+#textoGeneralE2, #textoGeneralE4, #textoGeneralE6{
+    font-size: 40px;
+    margin-left: 475px;
+    color: black;
+}
+
+
+#textoGeneralE7, #textoGeneralE8{
+    font-size: 40px;
+    margin-left: 445px;
+    color: black;
+}
+
+#textoGeneralE3, #textoGeneralE5{
+    font-size: 40px;
+    margin-left: 400px;
+    color: black;
+}
+#precioE{
+    position: absolute;
+    color: black;
+    font-size: 45px;
+    margin-top: -92px;
+    margin-left: 1000px;
+}
+
+#precioE2, #precioE3, #precioE4, #precioE5, #precioE6, #precioE7, #precioE8{
+    position: absolute;
+    color: black;
+    font-size: 45px;
+    margin-top: -92px;
+    margin-left: 950px;
+}
+#botonsumarE1, #botonsumarE2, #botonsumarE3, #botonsumarE4, #botonsumarE5, #botonsumarE6, #botonsumarE7, #botonsumarE8{
+    background-color: transparent;
+    margin-left: 550px;
+    border: none;
+}
+
+#botonsumarE1 img, #botonsumarE2 img, #botonsumarE3 img, #botonsumarE4 img, #botonsumarE5 img, #botonsumarE6 img, #botonsumarE7 img, #botonsumarE8 img{
+    width: 50px;
+    height: auto;
+}
+#cantidadE1, #cantidadE2, #cantidadE3, #cantidadE4, #cantidadE5, #cantidadE6, #cantidadE7, #cantidadE8{
+    font-size: 45px;
+    margin-left: 740px;
+    margin-top: -55px;
+    color: black;
+}
+
+
+#botonrestarE1,#botonrestarE2, #botonrestarE3, #botonrestarE4, #botonrestarE5, #botonrestarE6, #botonrestarE7, #botonrestarE8{
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 0px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+#botonrestarE1 img, #botonrestarE2 img, #botonrestarE3 img, #botonrestarE4 img, #botonrestarE5 img, #botonrestarE6 img, #botonrestarE7 img, #botonrestarE8 img{
+    width: 50px;
+    height: auto;
+}
+
+#botonsalirE1,  #botonsalirE3{
+    background-color: white;
+    margin-left: 1420px;
+    margin-top: -600px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+ #botonsalirE2 , #botonsalirE8 {
+    background-color: white;
+    margin-left: 1420px;
+    margin-top: -580px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+#botonsalirE4, #botonsalirE5, #botonsalirE6, #botonsalirE7{
+    background-color: white;
+    margin-left: 1420px;
+    margin-top: -570px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+#botonsalirE1 img, #botonsalirE2 img, #botonsalirE3 img, #botonsalirE4 img, #botonsalirE5 img, #botonsalirE6 img, #botonsalirE7 img, #botonsalirE8 img{
+    width: 50px;
+    height: auto;
+    margin-top: 100px;
+}
+
+#addcarritoE, #addcarritoE2, #addcarritoE3, #addcarritoE4,#addcarritoE5,#addcarritoE6, #addcarritoE7, #addcarritoE8{
+    margin-left: 700px;
+    margin-top: -10px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/*Alergenos */
+#Alergenoshabas, #AlergenosJamonyQueso,#AlergenosCroquetas{
+    position: absolute;
+    margin-top: -570px;
+    /*border: 1px solid black;*/
+    margin-left: 8px;
+}
+
+#AlergenosCroquetas,#AlergenosSalchichon,#AlergenosCalamares{
+    position: absolute;
+    margin-top: -520px;
+    /*border: 1px solid black;*/
+    margin-left: 8px;
+}
+
+#imagenHuevo, #imagenLactosa,#imagenSoja,#imagenDixidoSulfurico,#imagenGluten,#imagenMoluscos,#imagenCascara{
+    height: 190px;
+}
+
+#TextoHabasAlergenos, #TextoJyQAlergenos,#TextoCroqueAlergenos,#TextoSalchiAlergenos,#TextoCalamaresAlergenos{
+    color: red;
+    text-align: center;
+}
+
